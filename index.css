@@ -1,0 +1,325 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+ 
+
+}
+
+.navbar {
+    position: fixed;
+    top: 0%;
+    /* Sticks it to the top of the page */
+    width: 100%;
+    /* Makes it span the full width of the viewport */
+    background-color: white;
+    /* Dark background color */
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 14px 0;
+    z-index: 1;
+
+}
+
+.carousel {
+    margin-top: 100px;
+}
+
+.card-haed {
+
+
+    text-align: center;
+    font-weight: 700;
+}
+
+.card-container {
+
+
+    display: flex;
+    justify-content: center;
+    gap: "-10px";
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.data-head {
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+
+
+}
+
+.body-data {
+    position: relative;
+    width: 100%;
+
+}
+
+.bluebg {
+    width: 100%;
+    height: 90vh;
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 30%;
+    /* Position text at the vertical center */
+    left: 5%;
+    right: 5%;
+    /* Position text at the horizontal center */
+    color: white;
+    /* Text color */
+    font-size: 43px;
+    /* Adjust text size */
+    font-weight: bolder;
+    /* Bold text */
+    font-family: "Protest Strike", sans-serif;
+    text-align: center;
+}
+
+.text-overlayimg {
+    position: absolute;
+    top: 15%;
+    /* Position text at the vertical center */
+    left: 50%;
+    /* Position text at the horizontal center */
+    width: 100px;
+
+}
+
+.text-overlaypara {
+    position: absolute;
+    top: 70%;
+    /* Position text at the vertical center */
+    left: 10%;
+    right: 10%;
+    /* Position text at the horizontal center */
+    color: white;
+    /* Text color */
+
+
+    font-family: "Abel", sans-serif;
+    text-align: center;
+}
+
+.news {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: "Protest Strike", sans-serif;
+    font-size: 43px;
+    /* Adjust text size */
+    font-weight: bolder;
+    /* Bold text */
+}
+
+
+.card {
+    border: none;
+
+}
+
+.news-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+
+.footer-bg img {
+    width: 100%;
+    height: 100vh;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+.footer-head {
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+.hori{
+    color: white;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-weight: bolder;
+
+}
+.foot-img1{
+    margin-top: 100px;
+    margin-left: 120px;
+    width: 150px;
+    height: 100px;
+
+}
+.icons{
+    color: white;
+    margin-top: 30px;
+    margin-left: 150px;
+ 
+
+}
+.hori1{
+    color:red;
+  
+    margin-top: 20px;
+    margin-right: 80px;
+    margin-left: 120px;
+  }
+  .footer-end{
+    margin-top: 100px;
+    ;  }
+
+
+@media only screen and (max-width: 768px) {
+    /* CSS rules for devices with width up to 768px */
+
+    .text-overlayimg {
+        position: absolute;
+        top: 5%;
+        /* Position text at the vertical center */
+        left: 35%;
+        /* Position text at the horizontal center */
+        width: 100px;
+
+    }
+
+    .text-overlay {
+        position: absolute;
+        top: 15%;
+        /* Position text at the vertical center */
+        left: 5%;
+        right: 5%;
+        /* Position text at the horizontal center */
+        color: white;
+        /* Text color */
+        font-size: larger;
+        /* Adjust text size */
+        line-height: 45px;
+        font-weight: bolder;
+        /* Bold text */
+        font-family: "Protest Strike", sans-serif;
+        text-align: center;
+
+    }
+
+    .text-overlaypara {
+        position: absolute;
+        /* Position text at the vertical center */
+        top: 50%;
+        left: 10%;
+        right: 10%;
+        /* Position text at the horizontal center */
+        color: white;
+        /* Text color */
+        line-height: 30px;
+        font-size: medium;
+        font-family: "Abel", sans-serif;
+        text-align: center;
+    }
+
+    .news-cards {
+        display: block;
+        align-items: center;
+    }
+
+    .footer-bg img {
+        width: 100%;
+        height: 45vh;
+    }
+
+    .footer {
+        background-color: black;
+        height: 90vh;
+        width: 480px;
+    }
+
+    .footer-head {
+        color: white;
+        padding-top: 50px;
+        font-size: medium;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+      
+    }
+    .footer-button {
+       
+        font-size: small;
+    }
+
+        .hori{
+           
+           
+            margin-right: 40px;
+            margin-left: 40px;
+            
+        
+        }
+
+
+ .foot-img1{
+    
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.sub-imglogo {
+      font-size: small;
+      text-align: center;
+}
+.icons{
+    color: white;
+    margin-top: 30px;
+    margin-left: 200px;
+ 
+
+}
+.hori1{
+    color:red;
+  
+    margin-top: 20px;
+    margin-right: 80px;
+    margin-left: 120px;
+  }
+  .footer-block1{
+    margin-left: 30px;
+  
+    font-size: medium;
+  }
+  .footer-block2{
+    margin-left: 30px;
+    padding-top: -400px;
+    font-size: medium;
+  }
+
+    .footer-block3{
+        margin-left: 300px;
+        margin-bottom: -400px;
+        font-size: medium;
+      
+    } 
+    .footer-block4{
+        margin-left: 30px;
+      
+        font-size: medium;
+      }
+      .footer-end{
+        margin-top: 100px;
+        font-size: large;
+      }
+
+}
